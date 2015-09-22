@@ -10,6 +10,7 @@
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/coin-slider.min.js"></script>
+<script type="text/javascript" src="js/form-validation.js"></script>
 </head>
 <body>
 <div class="main">
@@ -53,23 +54,31 @@
         <div class="article">
           <h2><span>Send us</span> mail</h2>
           <div class="clr"></div>
-          <form action="#" method="post" id="sendemail">
+          
+         <!--contact form--> 
+ <form onsubmit="return checkForm();" method="post" action="mailto:nelsonkimaiga@aol.com">
             <ol>
               <li>
                 <label for="name">Name (required)</label>
                 <input id="name" name="name" class="text" />
-              </li>
+            <div class="error" id="nameError">Required: Please enter your name<br /></div>    
+                 </li>
+                 
+                 
               <li>
                 <label for="email">Email Address (required)</label>
                 <input id="email" name="email" class="text" />
+                <div class="error" id="emailError">Required: Please enter your email<br /></div>
               </li>
               <li>
                 <label for="website">Website</label>
                 <input id="website" name="website" class="text" />
+                <div class="error" id="websiteError">Required: Please enter your website<br /></div>
               </li>
               <li>
                 <label for="message">Your Message</label>
                 <textarea id="message" name="message" rows="8" cols="50"></textarea>
+                <div class="error" id="messageError">Required: Please enter your message<br /></div>
               </li>
               <li>
                 <input type="image" name="imageField" id="imageField" src="images/submit.gif" class="send" />
