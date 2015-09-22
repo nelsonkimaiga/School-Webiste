@@ -13,6 +13,7 @@ html, .main {
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .main {
+    /*Code coming soon*/
 }
 .clr {
 	clear:both;
@@ -304,6 +305,8 @@ p.infopost a {
 	color:#fff;
 	background:#363636;
 	border:1px solid #363636;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        
 }
 .content p.pages a {
 	color:#6e6e6e;
