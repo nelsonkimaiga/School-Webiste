@@ -39,7 +39,8 @@
 	padding:16px 60px 16px 24px;
 	width:876px;
 	color:#363636;
-	font-size:15px;
+	font-size:20px;
+	font-style: cursive;
 	line-height:1.5em;
 	background:url(../images/overlay2.png) repeat left top;
 }
