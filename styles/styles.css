@@ -2,14 +2,15 @@ body {
 	margin:0;
 	padding:0;
 	width:100%;
-	color:#28ecfa;
-	font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
-	background:#1ca2ce url(../images/main_bg.gif) repeat-x left top;
+	color:white;
+	font:normal 12px/1.5em "Comic Sans MS", "Comic Sans", cursive;
+	background:grey url(../images/main_bg.gif) repeat-x left top;
 }
 
 html, .main {
 	padding:0;
 	margin:0;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .main {
 }
@@ -27,6 +28,7 @@ h2 {
 	font-size:25px;
 	font-weight:normal;
 	color:#353c46;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 p {
 	margin:8px 0;
@@ -39,6 +41,7 @@ a {
 .header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar {
 	margin:0;
 	padding:0;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .header {
 }
@@ -52,6 +55,7 @@ a {
 	float:left;
 	width:auto;
 	height:118px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 h1 {
 	margin:0;
@@ -145,6 +149,7 @@ h1 small {
 }
 .content {
 	padding:0;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .content_resize {
 	margin:0 auto;
@@ -163,6 +168,7 @@ h1 small {
 	font-size:33px;
 	line-height:1.2em;
 	color:#fffffe;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .content .mainbar div.img {
 	padding:12px 0 0;
@@ -179,10 +185,12 @@ h1 small {
 .content .mainbar .article {
 	margin:0 0 32px;
 	padding:0 0 0 20px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .content .mainbar .post_content {
 	float:right;
 	width:440px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .content .mainbar .post_content strong {
 	color:#fffffe;
@@ -191,6 +199,7 @@ h1 small {
 	padding:0;
 	float:right;
 	width:260px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .content .sidebar .gadget {
 	margin:0 0 12px;
@@ -199,6 +208,7 @@ h1 small {
 .content .sidebar h2 {
 	color:#fffffe;
 	text-transform:none;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 ul.sb_menu, ul.ex_menu {
 	margin:0;
@@ -262,6 +272,7 @@ p.infopost a {
 	padding-left:4px;
 	font-weight:normal;
 	color:#fffffe;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .content .mainbar a.rm {
 	float:left;
