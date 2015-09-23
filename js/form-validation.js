@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 
-//Using DOM to extract contact form input
+//Using DOM to extract contact form input 
+//Calling a function we created called checkForm()
 function checkForm() {
  name = document.getElementById("name").value;
  email = document.getElementById("email").value;
